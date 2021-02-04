@@ -1,3 +1,7 @@
+.navbar {
+	margin-top: 3px;
+}
+
 
 @media (min-width: 992px){
 	.dropdown-menu .dropdown-toggle:after{

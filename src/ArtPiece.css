@@ -1,16 +1,26 @@
 .mainImage {
-  margin-top: 2rem;
   width: 100%;
   height: 700px;
   object-fit: cover;
+  animation-name: moveIn2;
+  animation-duration: 2s;
 }
+
+@keyframes moveIn2 {
+  from{opacity: 0; transform: translateX(-1000px);}
+  to{opacity: 1; transform: translateX(0px);}
+
+}
+
 
 .textimage {
   position: relative;
-  margin-top: 40px;
-  color: white;
-  font-family: Roboto;
+  margin-top: 5px;
+  color: rgba(255, 255, 255, .8);
+  font-family: Orbitron;
   font-size: 50px;
+  letter-spacing: 0.4rem;
+  /* text-shadow: 5px 5px 3px rgb(0, 0, 0); */
   text-shadow: 5px 10px 10px #354440,
   15px 13px 10px rgba(0,0,0,0.3),
   15px 23px 20px rgba(0,0,0,1),
@@ -55,7 +65,7 @@
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-name: ticker;
-  animation-duration: 15s;
+  animation-duration: 12s;
 }
 
 .spelen {
