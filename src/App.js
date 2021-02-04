@@ -4,6 +4,7 @@ import NavBar from "./NavBar";
 import ArtPiece from "./ArtPiece";
 import SearchBar from "./SearchBar";
 import List from "./List";
+import Footer from "./Footer";
 
 
 
@@ -16,6 +17,7 @@ class App extends React.Component{
         <NavBar />
         <ArtPiece />
         <List />
+        <Footer />
       </div>
     );
   }
