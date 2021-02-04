@@ -13,8 +13,9 @@ class App extends React.Component{
   render(){
     return (
       <div class = "app">
-      <NavBar />
-      <ArtPiece />
+        <NavBar />
+        <ArtPiece />
+        <List />
       </div>
     );
   }
