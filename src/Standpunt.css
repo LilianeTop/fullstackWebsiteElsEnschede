@@ -4,10 +4,5 @@ p {
   font-family: Roboto;
   color: rgba(217, 231, 107, .8);
   background-color: #354440;
-  margin-bottom: 0;
-  padding-bottom: 1rem;
-}
-
-hr {
-  background-color: rgba(217, 231, 107, .5);
+  
 }

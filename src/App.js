@@ -1,24 +1,29 @@
 import "./App.css";
-import React from "react";
+import React, { Component } from "react";
+import {BrowserRouter as Router, Route} from "react-router-dom";
 import NavBar from "./NavBar";
-import ArtPiece from "./ArtPiece";
 import SearchBar from "./SearchBar";
-import List from "./List";
 import Footer from "./Footer";
+import Home from "./components/pages/Home";
+import Portfolio from './components/pages/Portfolio';
+import AboutEls from './components/pages/AboutEls';
+import Standpunt from "./Standpunt";
+
 
 
 
 class App extends React.Component{
-
-
   render(){
     return (
-      <div class = "app">
-        <NavBar />
-        <ArtPiece />
-        <List />
-        <Footer />
-      </div>
+      <Router>
+        <div class = "app">
+          <Route path='*' component={NavBar} />
+          <Route path='*' component={Footer} />
+          <Route exact path='/' component={Home} />
+          <Route exact path='/portfolio' component={Portfolio} />
+          <Route exact path='/standpunt' component={Standpunt} />
+        </div>
+      </Router>
     );
   }
 }
