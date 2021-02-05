@@ -1,11 +1,17 @@
 
-p {
-  text-align: center;
-  font-family: Roboto;
-  color: rgba(217, 231, 107, .8);
+.fixed-bottom {
   background-color: #354440;
   margin-bottom: 0;
   padding-bottom: 1rem;
+}
+
+p {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 1rem;
+  color: rgba(217, 231, 107, .8);
+
+
 }
 
 hr {

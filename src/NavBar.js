@@ -68,7 +68,7 @@ const NavBar = () => {
                       <li><a class="dropdown-item" href="/grijs">Grijs</a></li>
                       <li><a class="dropdown-item" href="/kleurrijk">Kleurrijk</a></li>
                       <li><a class="dropdown-item" href="/mono">Mono</a></li>
-                      <li><a class="dropdown-item" href="zwartwit">Zwart/Wit</a></li>
+                      <li><a class="dropdown-item" href="/zwartwit">Zwart/Wit</a></li>
                     </ul>
                   </li>
                   <li><a class="dropdown-item" href="/specials">Specials</a>
@@ -97,11 +97,15 @@ const NavBar = () => {
               </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="/laatste">Laatse</a>
-                  <a class="dropdown-item" href="datum1">Datum1</a>
-                  <a class="dropdown-item" href="datum2">Datum2</a>
-                  <a class="dropdown-item" href="onderwerp1">Onderwerp1</a>
-                  <a class="dropdown-item" href="onderwerp2">Onderwerp2</a>
+                  <a class="dropdown-item" href="/datum1">Datum1</a>
+                  <a class="dropdown-item" href="/datum2">Datum2</a>
+                  <a class="dropdown-item" href="/onderwerp1">Onderwerp1</a>
+                  <a class="dropdown-item" href="/onderwerp2">Onderwerp2</a>
                 </div>
+            </li>
+
+            <li class="nav-item active">
+              <a class="nav-link" href="#"><span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="/overEls" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
