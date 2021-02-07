@@ -3,10 +3,12 @@ import React from "react";
 
 //stap 2 react-dom importeren
 import ReactDOM from "react-dom";
+
+
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
 import $ from 'jquery';
 import Popper from 'popper.js';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 
 //stap 3 app importeren dit is onze app

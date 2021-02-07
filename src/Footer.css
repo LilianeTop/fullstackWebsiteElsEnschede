@@ -2,18 +2,34 @@
 .fixed-bottom {
   background-color: #354440;
   margin-bottom: 0;
-  padding-bottom: 1rem;
+  padding: 1%;
+}
+
+hr {
+  background-color: rgba(217, 231, 107, .5);
 }
 
 p {
   text-align: center;
   font-family: Roboto;
-  font-size: 1rem;
+  font-size: 2rem;
   color: rgba(217, 231, 107, .8);
-
-
+  margin-bottom: 0;
 }
 
-hr {
-  background-color: rgba(217, 231, 107, .5);
+
+.copyright1 {
+  color: black;
+  font-size: 1.3rem;
+  font-style: italic;
+  float: left;
+  padding-left: 5%;
+}
+
+.copyright2 {
+  color: black;
+  font-size: 1.3rem;
+  float: right;
+  font-style: italic;
+  padding-right: 5%;
 }
