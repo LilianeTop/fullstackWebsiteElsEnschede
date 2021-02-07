@@ -2,7 +2,7 @@
     overflow: hidden;
 }
 .sliding-background {
-    background: url("HomepanoramaWater.jpg") repeat-x;
+    background: url("Homepageimage.jpg") repeat-x;
     height: 510px;
     width: 4000px;
     animation: slide 30s linear infinite;
