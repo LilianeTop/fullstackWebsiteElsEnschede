@@ -47,22 +47,23 @@
   position: absolute;
   font-size: 3rem;
   top: 10%;
-  right: 10%;
-  left:0%;
+  right: 50%;
+  /*left:0%;*/
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-name: ticker;
-  animation-duration: 12s;
+  animation-duration: 20s;
 }
 
 .spelen {
   position: absolute;
   top: 50%;
+  right: 50%;
   font-size: 3rem;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-name: ticker;
-  animation-duration: 17s;
+  animation-duration: 13s;
 }
 
 @keyframes ticker {
