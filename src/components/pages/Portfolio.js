@@ -1,11 +1,13 @@
 import "./Portfolio.css";
-
+import HomeCarousel from "../../HomeCarousel";
 
 
 const Portfolio = () => {
-  return (
-    <p> Here komt het overzicht van alle portfolios </p>
-  );
+    return (
+        <div>
+            <HomeCarousel/>
+        </div>
+    );
 }
 
 export default Portfolio;

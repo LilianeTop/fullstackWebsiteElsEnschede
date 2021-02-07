@@ -1,5 +1,7 @@
 import "./Footer.css";
 
+//FIXME: footer not responsive
+
 const Footer = () => {
   return(
     <div className="fixed-bottom">

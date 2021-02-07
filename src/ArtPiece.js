@@ -1,10 +1,12 @@
 import "./ArtPiece.css";
+import HomeCarousel from "./HomeCarousel";
 
+//FIXME: not properly responsive lines split up and
+//FIXME: the tickertape is problametic as it makes the screen too wide
 const ArtPiece = () => {
   return (
-
     <div className="textimage">
-              <img src="img/homeRunningWater.jpg" alt="running water" className="mainImage"/>
+              <HomeCarousel />
               <div className="beeldenmaker">[ Beeldenmaker ] </div>
               <div className="werkinuitvoering">[ WERK IN UITVOERING ]</div>
               <div className="kijken">[ Kijken, Zoeken, Vinden ] </div>

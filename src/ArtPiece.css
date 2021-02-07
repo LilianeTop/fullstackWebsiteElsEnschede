@@ -1,25 +1,10 @@
-.mainImage {
-  width: 100%;
-  height: 600px;
-  object-fit: cover;
-  padding-bottom: -4rem !important;
-  animation-name: moveIn2;
-  animation-duration: 1.8s;
-}
-
-@keyframes moveIn2 {
-  from{opacity: 0; transform: translateX(-800px);}
-  to{opacity: 1; transform: translateX(0px);}
-
-}
-
 
 .textimage {
   position: relative;
   margin-top: 5px;
   color: rgb(217, 231, 107);
   font-family: Orbitron;
-  font-size: 30px;
+  font-size: 3rem;
   letter-spacing: 0.4rem;
   /* text-shadow: 5px 5px 3px rgb(0, 0, 0); */
   text-shadow: 5px 10px 10px #354440,
@@ -30,6 +15,7 @@
 
 .werkinuitvoering {
   position: absolute;
+  font-size: 3rem;
   color: rgb(255, 0, 255);
   top: 40%;
   left: 35%;
@@ -38,6 +24,7 @@
 .kijken {
   position: absolute;
   top: 30%;
+  font-size: 3rem;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-name: ticker;
@@ -48,15 +35,17 @@
 .schildersoog {
   position: absolute;
   top: 70%;
+  font-size: 3rem;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-name: ticker;
   animation-duration: 20s;
 
 }
-
+/*FIXME: starts in the middle of the page*/
 .beeldenmaker {
   position: absolute;
+  font-size: 3rem;
   top: 10%;
   right: 10%;
   left:0%;
@@ -69,6 +58,7 @@
 .spelen {
   position: absolute;
   top: 50%;
+  font-size: 3rem;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-name: ticker;

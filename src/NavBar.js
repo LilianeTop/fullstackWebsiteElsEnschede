@@ -4,7 +4,8 @@ import "./NavBar.css";
 const NavBar = () => {
   return (
 // FIXME: font and font color do not adjust why? color-#d9e76b
-      <nav className="navbar navbar-custom collapseOnSelect navbar-dark navbar-expand-lg fixed-top py-lg-0">
+      //FIXME: hamburger doesn't show submenu
+      <nav className="navbar collapseOnSelect navbar-dark navbar-expand-lg fixed-top py-lg-0">
         <a className="navbar-brand" href="/">
           <img src="img/logoInverse.png"  width="50" heigth="50" alt="logo"/>
         </a>
@@ -120,12 +121,12 @@ const NavBar = () => {
             </li>
           </ul>
 
-        <form className="form-inline my-2 my-lg-2">
-          <div className="form-group input-group-append">
-            <input className="form-control my-lg-2 mr-sm-2" type="search" placeholder="Zoek op onderwerp" aria-label="Search" />
-            <button className="btn btn-outline-light my-2 my-sm-0"  type="submit">Zoek</button>
-          </div>
-        </form>
+            <form className="form-inline my-2 my-lg-2">
+              <div className="form-group input-group-append">
+                <input className="form-control my-lg-2 mr-sm-2" type="search" placeholder="Zoek op onderwerp" aria-label="Search" />
+                <button className="btn btn-outline-light my-2 my-sm-0"  type="submit">Zoek</button>
+              </div>
+            </form>
     </div>
 </nav>
 );
