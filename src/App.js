@@ -12,6 +12,7 @@ import Standpunt from "./Standpunt";
 
 
 
+
 class App extends React.Component{
   render(){
     return (
