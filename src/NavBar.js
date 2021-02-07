@@ -4,7 +4,7 @@ import "./NavBar.css";
 const NavBar = () => {
   return (
 // FIXME: font and font color do not adjust why? color-#d9e76b
-      <nav className="navbar collapseOnSelect navbar-dark navbar-expand-lg fixed-top py-lg-0">
+      <nav className="navbar navbar-custom collapseOnSelect navbar-dark navbar-expand-lg fixed-top py-lg-0">
         <a className="navbar-brand" href="/">
           <img src="img/logoInverse.png"  width="50" heigth="50" alt="logo"/>
         </a>

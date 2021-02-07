@@ -12,9 +12,10 @@ hr {
 p {
   text-align: center;
   font-family: Roboto;
-  font-size: 2rem;
+  font-size: 1.3rem;
   color: rgba(217, 231, 107, .8);
   margin-bottom: 0;
+  margin-left: -100px;
 }
 
 
@@ -24,6 +25,7 @@ p {
   font-style: italic;
   float: left;
   padding-left: 5%;
+  margin-left: 100px;
 }
 
 .copyright2 {
