@@ -29,35 +29,17 @@ const NavBar = () => {
                   Portfolio
                </a>
               <ul className="dropdown-menu">
-                  <li><a className="dropdown-item" href="/onderwerp"> Onderwerp</a>
+                  <li><a className="dropdown-item" href="/thema">Thema</a>
                     <ul className="submenu dropdown-menu">
-                      <li><a className="dropdown-item" href="/natuur">Natuur</a></li>
-                      <li><a className="dropdown-item" href="/industrie">Industrie</a></li>
+                      <li><a className="dropdown-item" href="/landschap">Landschap</a></li>
+                        <li><a className="dropdown-item" href="/stad">Stad</a></li>
+                        <li><a className="dropdown-item" href="/buiten">Buiten</a></li>
+                        <li><a className="dropdown-item" href="/reizen">Reizen</a></li>
+                        <li><a className="dropdown-item" href="/water">Water</a></li>
+                        <li><a className="dropdown-item" href="/industrie">Industrie</a></li>
                       <li><a className="dropdown-item" href="/mensen">Mensen</a></li>
-                      <li><a className="dropdown-item" href="/poppen">Poppen</a></li>
+                      <li><a className="dropdown-item" href="/scenes">Scenes</a></li>
                       <li><a className="dropdown-item" href="/abstract">Abstract</a></li>
-                    </ul>
-                  </li>
-                  <li><a className="dropdown-item" href="/lokatie">Lokatie</a>
-                    <ul className="submenu dropdown-menu">
-                      <li><a className="dropdown-item" href="/stad">Stad</a></li>
-                      <li><a className="dropdown-item" href="/amsterdam">Amsterdam</a></li>
-                      <li><a className="dropdown-item" href="/platteland">Platteland</a></li>
-                      <li><a className="dropdown-item" href="/buitenland">Buitenland</a></li>
-                    </ul>
-                  </li>
-                  <li><a className="dropdown-item" href="/stijl">Stijl</a>
-                    <ul className="submenu dropdown-menu">
-                      <li><a className="dropdown-item" href="/geensceneerd">Geënsceneerd</a></li>
-                      <li><a className="dropdown-item" href="/tafelfotografie">Tafelfotografie</a></li>
-                      <li><a className="dropdown-item" href="/conceptueel">Conceptueel</a></li>
-                    </ul>
-                  </li>
-                  <li><a className="dropdown-item" href="/structuren">Structuren</a>
-                    <ul className="submenu dropdown-menu">
-                      <li><a className="dropdown-item" href="/water">Water</a></li>
-                      <li><a className="dropdown-item" href="/planten">Planten</a></li>
-                      <li><a className="dropdown-item" href="/muren">Muren</a></li>
                     </ul>
                   </li>
                   <li><a className="dropdown-item" href="/kleur">Kleur</a>
@@ -66,16 +48,15 @@ const NavBar = () => {
                       <li><a className="dropdown-item" href="/geel">Geel</a></li>
                       <li><a className="dropdown-item" href="/groen">Groen</a></li>
                       <li><a className="dropdown-item" href="/rood">Rood</a></li>
-                      <li><a className="dropdown-item" href="/grijs">Grijs</a></li>
                       <li><a className="dropdown-item" href="/kleurrijk">Kleurrijk</a></li>
-                      <li><a className="dropdown-item" href="/mono">Mono</a></li>
-                      <li><a className="dropdown-item" href="/zwartwit">Zwart/Wit</a></li>
                     </ul>
                   </li>
                   <li><a className="dropdown-item" href="/specials">Specials</a>
                     <ul className="submenu dropdown-menu">
                       <li><a className="dropdown-item" href="/camerakwast">Camera & Kwast</a></li>
                       <li><a className="dropdown-item" href="/boxbeeld">Boxbeeld</a></li>
+                        <li><a className="dropdown-item" href="/geensceneerd">Geënsceneerd</a></li>
+
                     </ul>
                   </li>
                   <div className="dropdown-divider"></div>
@@ -97,11 +78,8 @@ const NavBar = () => {
                 Blog
               </a>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a className="dropdown-item" href="/laatste">Laatse</a>
-                  <a className="dropdown-item" href="/datum1">Datum1</a>
-                  <a className="dropdown-item" href="/datum2">Datum2</a>
-                  <a className="dropdown-item" href="/onderwerp1">Onderwerp1</a>
-                  <a className="dropdown-item" href="/onderwerp2">Onderwerp2</a>
+                  <a className="dropdown-item" href="/laatste">Laatse post</a>
+                  <a className="dropdown-item" href="/datum1">Voorgaande posts</a>
                 </div>
             </li>
 
@@ -114,8 +92,7 @@ const NavBar = () => {
             </a>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
               <a className="dropdown-item" href="/standpunt">Fotografie Standpunt</a>
-              <a className="dropdown-item" href="/expositie">Expositie & Beurzen</a>
-              <a className="dropdown-item" href="/verkoop">Verkoop & Verhuur</a>
+              <a className="dropdown-item" href="/nieuws">Nieuws</a>
               <a className="dropdown-item" href="/contact">Contact</a>
             </div>
             </li>

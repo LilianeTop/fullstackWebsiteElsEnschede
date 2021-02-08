@@ -1,14 +1,5 @@
 .navbar {
     font-family: Roboto, sans-serif;
-    color: #d9e76b !important;
-    background-color: #354440;
-}
-
-/* bg-color=#354440 */
-
-.navbar-custom {
-    font-family: Roboto, sans-serif;
-    color: #d9e76b !important;
     background-color: #354440;
 }
 
@@ -47,6 +38,8 @@
     }
 
     .dropdown-menu > li:hover > .submenu {
-        display: block;
+        /*display: block;*/
+        display: flex;
+
     }
 }
